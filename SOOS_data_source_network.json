@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "ACE"
+    },
+    {
+      "id": 2,
+      "name": "INSTAC Copernicus Marine Services"
+    },
+    {
+      "id": 3,
+      "name": "PANGAEA"
+    },
+    {
+      "id": 4,
+      "name": "GOSUD"
+    },
+    {
+      "id": 5,
+      "name": "GLODAP"
+    },
+    {
+      "id": 6,
+      "name": "SOCAT"
+    },
+    {
+      "id": 7,
+      "name": "AADC"
+    },
+    {
+      "id": 8,
+      "name": "BAS"
+    },
+    {
+      "id": 9,
+      "name": "ASPeCt"
+    }, 
+    {
+      "id": 10,
+      "name": "NOAA"
+    }
+	, 
+    {
+      "id": 11,
+      "name": "SOOS"
+    }
+	, 
+    {
+      "id": 12,
+      "name": "SCAR"
+    }
+	, 
+    {
+      "id": 13,
+      "name": "EMODnet"
+    }
+	, 
+    {
+      "id": 14,
+      "name": "MEOP"
+    }
+	, 
+    {
+      "id": 15,
+      "name": "MAPPPD/Oceanites"
+    }
+	,
+	{
+      "id": 16,
+      "name": "ACAP"
+    }
+	,	
+    {
+      "id": 17,
+      "name": "MZGdb - NOAA"
+    }
+	, 
+    {
+      "id": 18,
+      "name": "EMBL-EBI"
+    }
+	, 
+    {
+      "id": 19,
+      "name": "International ARGO Programme"
+    }
+	, 
+    {
+      "id": 20,
+      "name": "EMODnet - CMEMS"
+    }
+	, 
+    {
+      "id": 21,
+      "name": "CMEMS"
+    }
+	, 
+    {
+      "id": 22,
+      "name": "EUMETSAT OSI-SAF"
+    }
+	, 
+    {
+      "id": 23,
+      "name": "Norwegian Polar Data Centre"
+    }
+	, 
+    {
+      "id": 24,
+      "name": "AODN"
+    }
+	, 
+    {
+      "id": 25,
+      "name": "Unclear"
+    }
+	, 
+    {
+      "id": 26,
+      "name": "NECKLACE"
+    }
+  ],
+  "links": [
+
+    {
+      "source": 1,
+      "target": 11
+    },
+    {
+      "source": 2,
+      "target": 11
+    },
+    {
+      "source": 3,
+      "target": 11
+    },
+
+    {
+      "source": 4,
+      "target": 11
+    },
+            {
+      "source": 5,
+      "target": 11
+    }
+    ,
+
+    {
+      "source": 6,
+      "target": 11
+    },
+     {
+      "source": 7,
+      "target": 11
+    }
+    ,
+    {
+      "source": 8,
+      "target": 11
+    }
+    ,
+
+    {
+      "source": 9,
+      "target": 11
+    },
+    {
+      "source": 10,
+      "target": 11
+    },
+    {
+      "source": 12,
+      "target": 11
+    },
+    {
+      "source": 13,
+      "target": 11
+    },
+    {
+      "source": 14,
+      "target": 11
+    },
+    {
+      "source": 15,
+      "target": 11
+    },
+    {
+      "source": 16,
+      "target": 11
+    },
+    {
+      "source": 17,
+      "target": 11
+    },
+    {
+      "source": 18,
+      "target": 11
+    },
+    {
+      "source": 19,
+      "target": 11
+    },
+    {
+      "source": 20,
+      "target": 11
+    },
+    {
+      "source": 21,
+      "target": 11
+    },
+    {
+      "source": 22,
+      "target": 11
+    },
+    {
+      "source": 23,
+      "target": 11
+    },
+    {
+      "source": 24,
+      "target": 11
+    },
+    {
+      "source": 25,
+      "target": 11
+    },
+    {
+      "source": 26,
+      "target": 11
+    }
+  ]
+}
