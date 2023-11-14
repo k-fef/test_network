@@ -1,156 +1,207 @@
 {
-  "nodes": [
-    {
-      "id": 1,
-      "name": "ACE"
-    },
-    {
-      "id": 2,
-      "name": "INSTAC Copernicus Marine Services"
-    },
-    {
-      "id": 3,
-      "name": "PANGAEA"
-    },
-    {
-      "id": 4,
-      "name": "GOSUD"
-    },
-    {
-      "id": 5,
-      "name": "GLODAP"
-    },
-    {
-      "id": 6,
-      "name": "SOCAT"
-    },
-    {
-      "id": 7,
-      "name": "AADC"
-    },
-    {
-      "id": 8,
-      "name": "BAS"
-    },
-    {
-      "id": 9,
-      "name": "ASPeCt"
-    },
-    {
-      "id": 10,
-      "name": "NOAA"
-    },
-    {
-      "id": 11,
-      "name": "SOOS"
-    },
-    {
-      "id": 12,
-      "name": "SCAR"
-    },
-    {
-      "id": 13,
-      "name": "EMODnet"
-    },
-    {
-      "id": 14,
-      "name": "MEOP"
-    },
-    {
-      "id": 15,
-      "name": "MAPPPD/Oceanites"
-    },
-    {
-      "id": 16,
-      "name": "ACAP"
-    },
-    {
-      "id": 17,
-      "name": "MZGdb - NOAA"
-    },
-    {
-      "id": 18,
-      "name": "EMBL-EBI"
-    },
-    {
-      "id": 19,
-      "name": "International ARGO Programme"
-    },
-    {
-      "id": 20,
-      "name": "EMODnet - CMEMS"
-    },
-    {
-      "id": 21,
-      "name": "CMEMS"
-    },
-    {
-      "id": 22,
-      "name": "EUMETSAT OSI-SAF"
-    },
-    {
-      "id": 23,
-      "name": "Norwegian Polar Data Centre"
-    },
-    {
-      "id": 24,
-      "name": "AODN"
-    },
-    {
-      "id": 25,
-      "name": "Unclear"
-    },
-    {
-      "id": 26,
-      "name": "NECKLACE"
-    }
-  ],
-  "links": [
-    {
-      "source": 1,
-      "target": 2
-    },
-    {
-      "source": 1,
-      "target": 5
-    },
-    {
-      "source": 1,
-      "target": 6
-    },
-
-    {
-      "source": 2,
-      "target": 3
-    },
-            {
-      "source": 2,
-      "target": 7
-    }
-    ,
-
-    {
-      "source": 3,
-      "target": 4
-    },
-     {
-      "source": 8,
-      "target": 3
-    }
-    ,
-    {
-      "source": 4,
-      "target": 5
-    }
-    ,
-
-    {
-      "source": 4,
-      "target": 9
-    },
-    {
-      "source": 5,
-      "target": 10
-    }
-  ]
-}
+    "nodes": [
+      {
+        "name": "SOOS",
+        "type": "Network"
+      },
+      {
+        "name": "Antarctic Circumnavigation Expedition (ACE)",
+        "type": "Research Initiative"
+      },
+      {
+        "name": "Copernicus Marine Service (CMEMS)",
+        "type": "Network"
+      },
+      {
+        "name": "PANGAEA",
+        "type": "Data Publisher"
+      },
+      {
+        "name": "GOSUD",
+        "type": "Network"
+      },
+      {
+        "name": "GLODAP",
+        "type": "Network"
+      },
+      {
+        "name": "SOCAT",
+        "type": "Network"
+      },
+      {
+        "name": "Australian Antarctic Data Centre (AADC)",
+        "type": "Data Centre"
+      },
+      {
+        "name": "British Antarctic Survey (BAS)",
+        "type": "Data Centre"
+      },
+      {
+        "name": "ASPeCt",
+        "type": "Working Group"
+      },
+      {
+        "name": "NOAA",
+        "type": "Government Agency"
+      },
+      {
+        "name": "SCAR",
+        "type": "Scientific Committee"
+      },
+      {
+        "name": "EMODnet",
+        "type": "Network"
+      },
+      {
+        "name": "MEOP",
+        "type": "Default"
+      },
+      {
+        "name": "MAPPPD/Oceanites",
+        "type": "Default"
+      },
+      {
+        "name": "ACAP",
+        "type": "Default"
+      },
+      {
+        "name": "MZGdb - NOAA",
+        "type": "Default"
+      },
+      {
+        "name": "EMBL-EBI",
+        "type": "Default"
+      },
+      {
+        "name": "International ARGO Programme",
+        "type": "Default"
+      },
+      {
+        "name": "EMODnet - CMEMS",
+        "type": "Default"
+      },
+      {
+        "name": "CMEMS",
+        "type": "Default"
+      },
+      {
+        "name": "EUMETSAT OSI-SAF",
+        "type": "Default"
+      },
+      {
+        "name": "Norwegian Polar Data Centre",
+        "type": "Default"
+      },
+      {
+        "name": "AODN",
+        "type": "Default"
+      },
+      {
+        "name": "Unclear",
+        "type": "Default"
+      },
+      {
+        "name": "NECKLACE",
+        "type": "Default"
+      }
+    ],
+    "links": [
+  
+      {"source": "ACE",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "INSTAC Copernicus Marine Services",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "PANGAEA",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "GOSUD",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "GLODAP",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "SOCAT",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "AADC",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "BAS",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "ASPeCt",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "NOAA",
+      "target": "SOOS", 
+      "count": 
+      },
+      {"source": "SCAR",
+      "target": "SOOS", 
+      "count": 
+      },
+      {"source": "EMODnet",
+      "target": "SOOS", 
+      "count": 
+      },
+      {"source": "MEOP",
+      "target": "SOOS", 
+      "count": 
+      },
+      {"source": "MAPPPD/Oceanites",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "ACAP",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "MZGdb - NOAA",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "EMBL-EBI",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "International ARGO Programme",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "EMODnet - CMEMS",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "Norwegian Polar Data Centre",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "AODN",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "Unclear",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "NECKLACE",
+      "target": "SOOS", 
+      "count": 1
+      },
+      {"source": "SCAR",
+      "target": "ASPeCt", 
+      "count": 1
+      }
+    ]
+  }
