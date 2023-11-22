@@ -1,207 +1,335 @@
 {
     "nodes": [
       {
-        "name": "SOOS",
-        "type": "Network"
+        "name": "SOOSmap",
+        "type": "Network",
+        "count": 2
       },
       {
-        "name": "Antarctic Circumnavigation Expedition (ACE)",
-        "type": "Research Initiative"
-      },
-      {
-        "name": "Copernicus Marine Service (CMEMS)",
-        "type": "Network"
-      },
-      {
-        "name": "PANGAEA",
-        "type": "Data Publisher"
-      },
-      {
-        "name": "GOSUD",
-        "type": "Network"
-      },
-      {
-        "name": "GLODAP",
-        "type": "Network"
-      },
-      {
-        "name": "SOCAT",
-        "type": "Network"
-      },
-      {
-        "name": "Australian Antarctic Data Centre (AADC)",
-        "type": "Data Centre"
-      },
-      {
-        "name": "British Antarctic Survey (BAS)",
-        "type": "Data Centre"
-      },
-      {
-        "name": "ASPeCt",
-        "type": "Working Group"
-      },
-      {
-        "name": "NOAA",
-        "type": "Government Agency"
-      },
-      {
-        "name": "SCAR",
-        "type": "Scientific Committee"
-      },
-      {
-        "name": "EMODnet",
-        "type": "Network"
-      },
-      {
-        "name": "MEOP",
-        "type": "Default"
-      },
-      {
-        "name": "MAPPPD/Oceanites",
-        "type": "Default"
-      },
-      {
-        "name": "ACAP",
-        "type": "Default"
-      },
-      {
-        "name": "MZGdb - NOAA",
-        "type": "Default"
-      },
-      {
-        "name": "EMBL-EBI",
-        "type": "Default"
-      },
-      {
-        "name": "International ARGO Programme",
-        "type": "Default"
-      },
-      {
-        "name": "EMODnet - CMEMS",
-        "type": "Default"
+        "name": "ACE",
+        "type": "Research Initiative",
+        "count": 1
       },
       {
         "name": "CMEMS",
-        "type": "Default"
+        "type": "Data Centre",
+        "count": 5
+      },
+      {
+        "name": "PANGAEA",
+        "type": "Data Centre",
+        "count": 2
+      },
+      {
+        "name": "GOSUD",
+        "type": "Consortium",
+        "count": 2
+      },
+      {
+        "name": "GLODAP",
+        "type": "Consortium",
+        "count": 2
+      },
+      {
+        "name": "SOCAT",
+        "type": "Consortium",
+        "count": 1
+      },
+      {
+        "name": "AADC",
+        "type": "Data Centre",
+        "count": 2
+      },
+      {
+        "name": "BAS",
+        "type": "Data Centre",
+        "count": 3
+      },
+      {
+        "name": "ASPeCt",
+        "type": "Working Group",
+        "count": 1
+      },
+      {
+        "name": "NOAA",
+        "type": "Government Agency",
+        "count": 3
+      },
+      {
+        "name": "SCAR",
+        "type": "Consortium",
+        "count": 3
+      },
+      {
+        "name": "EMODnet",
+        "type": "Network",
+        "count": 12
+      },
+      {
+        "name": "MEOP",
+        "type": "Consortium",
+        "count": 2
+      },
+      {
+        "name": "MAPPPD",
+        "type": "Network",
+        "count": 1
+      },
+      {
+        "name": "ACAP",
+        "type": "Network",
+        "count": 1
+      },
+      {
+        "name": "EMBL-EBI",
+        "type": "Research Initiative",
+        "count": 1
+      },
+      {
+        "name": "ARGO",
+        "type": "Network",
+        "count": 4
       },
       {
         "name": "EUMETSAT OSI-SAF",
-        "type": "Default"
+        "type": "Data Centre",
+        "count": 2
       },
       {
         "name": "Norwegian Polar Data Centre",
-        "type": "Default"
+        "type": "Data Centre",
+        "count": 1
       },
       {
         "name": "AODN",
-        "type": "Default"
+        "type": "Data Centre",
+        "count": 1
       },
       {
         "name": "Unclear",
-        "type": "Default"
+        "type": "Default",
+        "count": 6
       },
       {
         "name": "NECKLACE",
-        "type": "Default"
+        "type": "Network",
+        "count": 1
+      },
+      {
+        "name": "SCOR",
+        "type": "Consortium",
+        "count": 1
+      },
+      {
+        "name": "MZGdb",
+        "type": "Research Initiative",
+        "count": 1
+      },
+      {
+        "name": "AAD",
+        "type": "Government Agency",
+        "count": 1
+      },
+      {
+        "name": "SO-CHIC",
+        "type": "Working Group",
+        "count": 1
       }
     ],
     "links": [
-  
-      {"source": "ACE",
-      "target": "SOOS", 
-      "count": 1
+
+      {
+        "source": "ACE",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "CTD Profiles collection v. 2021"
       },
-      {"source": "INSTAC Copernicus Marine Services",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "CMEMS",
+        "target": "SOOSmap",
+        "count": 5,
+        "dataset": "CTD Profiles collection v. 2021, GLORYS12V1 - SFT, GLORYS12V1 - SST, GLORYS12V1 - SIT, GLORYS12V1 - SIC"
       },
-      {"source": "PANGAEA",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "PANGAEA",
+        "target": "SOOSmap",
+        "count": 2,
+        "dataset": "CTD Profiles collection v. 2021, POLARSTERN Cruises"
       },
-      {"source": "GOSUD",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "GOSUD",
+        "target": "SOOSmap",
+        "count": 2,
+        "dataset": "GOSUD - SST - NRT [12 months], GOSUD - SSS - NRT [12 months]"
       },
-      {"source": "GLODAP",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "GLODAP",
+        "target": "SOOSmap",
+        "count": 2,
+        "dataset": "GLODAP - SST - Climatology, GLODAP - SSS - Climatology"
       },
-      {"source": "SOCAT",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "SOCAT",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "SOCAT v.2021 - fCO2"
       },
-      {"source": "AADC",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "AADC",
+        "target": "SOOSmap",
+        "count": 2,
+        "dataset": "CPR Tows Route, SCAR Retrospective Analysis of Antarctic Tracking Data"
       },
-      {"source": "BAS",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "SCAR",
+        "target": "AADC",
+        "count": 1,
+        "dataset": "CPR Tows Route"
       },
-      {"source": "ASPeCt",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "BAS",
+        "target": "SOOSmap",
+        "count": 3,
+        "dataset": "KRILLBASE, Epipelagic mesozooplankton distribution and abundance 1996-2013, British Antartica Survey Webcams"
       },
-      {"source": "NOAA",
-      "target": "SOOS", 
-      "count": 
+      {
+        "source": "SO-CHIC",
+        "target": "EMODnet",
+        "count": 1,
+        "dataset": "Absolute Sea Level Trend - SSHT"
       },
-      {"source": "SCAR",
-      "target": "SOOS", 
-      "count": 
+      {
+        "source": "BAS",
+        "target": "SO-CHIC",
+        "count": 1,
+        "dataset": "Absolute Sea Level Trend - SSHT"
       },
-      {"source": "EMODnet",
-      "target": "SOOS", 
-      "count": 
+      {
+        "source": "ASPeCt",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "ASPeCt - Sea Ice Measurements Database"
       },
-      {"source": "MEOP",
-      "target": "SOOS", 
-      "count": 
+      {
+        "source": "SCAR",
+        "target": "ASPeCt",
+        "count": 1,
+        "dataset": "ASPeCt - Sea Ice Measurements Database"
       },
-      {"source": "MAPPPD/Oceanites",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "NOAA",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "Compilation of dissolved organic matter from 1994 to 2021. V2, MetaZooGene - ZOOC, NOAA Optimum Interpolation (OI) SST V2 - 1981-present"
       },
-      {"source": "ACAP",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "SCOR",
+        "target": "MZGdb",
+        "count": 1,
+        "dataset": "MetaZooGene - ZOOC"
       },
-      {"source": "MZGdb - NOAA",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "MZGdb",
+        "target": "NOAA",
+        "count": 1,
+        "dataset": "MetaZooGene - ZOOC"
       },
-      {"source": "EMBL-EBI",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "SCAR",
+        "target": "SOOSmap",
+        "count": 2,
+        "dataset": "Plastic Debris, Bathymetric Survey Effort"
       },
-      {"source": "International ARGO Programme",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "EMODnet",
+        "target": "SOOSmap",
+        "count": 13,
+        "dataset": "Gliders, Glider, ROV, AUV, ASV, UAV - NRT - SCT - last 60 days, Glider, ROV, AUV, ASV, UAV - NRT - SCS last 60 days, Drifting Buoys, Drifting buoys – SST – NRT 12 months, Temperature in situ SST - SCT, Sea Level Stations - SSH, Wave in situ platforms data, Wind in situ platforms data - WIND, IN SITU PLATFORMS, CORA Climatology - SCT, CORA Climatology - SCS, Absolute Sea Level Trend - SSHT, Wind"
       },
-      {"source": "EMODnet - CMEMS",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "MEOP",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "Animal-borne STC, Animal-borne - SCS"
       },
-      {"source": "Norwegian Polar Data Centre",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "MAPPPD",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "Penguin Colonies"
       },
-      {"source": "AODN",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "SOOSmap",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "SOOS Mooring Network"
       },
-      {"source": "Unclear",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "ACAP",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "Albatrosses and Petrels Nesting Sites - ACAP"
       },
-      {"source": "NECKLACE",
-      "target": "SOOS", 
-      "count": 1
+      {
+        "source": "EMBL-EBI",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "ENA SEQUENCES"
       },
-      {"source": "SCAR",
-      "target": "ASPeCt", 
-      "count": 1
+      {
+        "source": "ARGO",
+        "target": "SOOSmap",
+        "count": 3,
+        "dataset": "ARGO and profiling floats, ARGO and profiling floats - SCT - NRT 12 months, ARGO and profiling floats – SCS – NRT 12 months"
+      },
+      {
+        "source": "EUMETSAT OSI-SAF",
+        "target": "SOOSmap",
+        "count": 2,
+        "dataset": "EUMETSAT OSISAF - SIC, EUMETSAT OSISAF - SITYPE"
+      },
+      {
+        "source": "Norwegian Polar Data Centre",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "SCAR - ICBG"
+      },
+      {
+        "source": "SCAR",
+        "target": "Norwegian Polar Data Centre",
+        "count": 1,
+        "dataset": "SCAR - ICBG"
+      },
+      {
+        "source": "AODN",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "SURVOSTRAL Program"
+      },
+      {
+        "source": "Unclear",
+        "target": "SOOSmap",
+        "count": 6,
+        "dataset": "CTD Animal-borne, ICE-LAPSE: Analysis of Antarctic benthos, GLORYS12V1 - MLD, Sea Sickness [25m ship], Sea Sickness [50m ship], Sea Sickness [75m ship]"
+      },
+      {
+        "source": "NECKLACE",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "NECKLACE"
+      },
+      {
+        "source": "SOOSmap",
+        "target": "NECKLACE",
+        "count": 1,
+        "dataset": "NECKLACE"
+      },
+      {
+        "source": "AAD",
+        "target": "SOOSmap",
+        "count": 1,
+        "dataset": "Australian Antarctic Program Survey Webcams"
       }
+
     ]
   }
